@@ -41,9 +41,9 @@ public class VendasApplication {
             System.out.println();
 
             System.out.println("************DELETANDO CLIENTES************");
-//            clientes.obterTodos().forEach(c -> {
-//                clientes.deletar(c);
-//            });
+            clientes.obterTodos().forEach(c -> {
+                clientes.deletar(c);
+            });
             System.out.println();
 
             System.out.println("************TODOS OS CLIENTES************");
