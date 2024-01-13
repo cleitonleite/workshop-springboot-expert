@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9a214073-5a0c-47a7-9c4a-d471ecece0e6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2ajUPa4ulxRZctDj2X9s0DncwjJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.githob.cleiton" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="VendasApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.githob.cleiton.VendasApplication" />
+      <module name="vendas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.githob.cleiton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.VendasApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a214073-5a0c-47a7-9c4a-d471ecece0e6" name="Default Changelist" comment="" />
+      <created>1704831459202</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704831459202</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="174" width="816" height="729" key="#Intentions" timestamp="1705109572618">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="552" y="174" width="816" height="729" key="#Intentions/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705109572618" />
+    <state x="552" y="174" key="#Notifications" timestamp="1705088178372">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="552" y="174" key="#Notifications/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705088178372" />
+    <state x="552" y="174" key="#Project_Structure" timestamp="1705088090356">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="552" y="174" key="#Project_Structure/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705088090356" />
+    <state x="765" y="200" key="#com.intellij.ide.util.MemberChooser" timestamp="1705111453280">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="765" y="200" key="#com.intellij.ide.util.MemberChooser/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705111453280" />
+    <state x="689" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1705109976425">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="689" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705109976425" />
+    <state x="690" y="263" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1705011996113">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="690" y="263" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705011996113" />
+    <state width="1877" height="686" key="GridCell.Tab.0.bottom" timestamp="1705114755203">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="686" key="GridCell.Tab.0.bottom/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705114755203" />
+    <state width="1877" height="686" key="GridCell.Tab.0.center" timestamp="1705114755203">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="686" key="GridCell.Tab.0.center/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705114755203" />
+    <state width="1877" height="686" key="GridCell.Tab.0.left" timestamp="1705114755203">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="686" key="GridCell.Tab.0.left/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705114755203" />
+    <state width="1877" height="686" key="GridCell.Tab.0.right" timestamp="1705114755203">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="686" key="GridCell.Tab.0.right/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705114755203" />
+    <state x="821" y="54" key="SettingsEditor" timestamp="1705004956666">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="821" y="54" key="SettingsEditor/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705004956666" />
+    <state x="656" y="340" key="com.intellij.ide.util.TipDialog" timestamp="1704996233200">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="656" y="340" key="com.intellij.ide.util.TipDialog/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1704996233200" />
+    <state x="690" y="271" key="extract.method.dialog" timestamp="1705101510674">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="690" y="271" key="extract.method.dialog/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705101510674" />
+    <state x="629" y="114" width="661" height="804" key="find.popup" timestamp="1705008998981">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="629" y="114" width="661" height="804" key="find.popup/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705008998981" />
+    <state x="616" y="238" key="run.anything.popup" timestamp="1705013027163">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="616" y="238" key="run.anything.popup/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705013027163" />
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1704896942286">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1704896942286" />
+  </component>
+</project>
