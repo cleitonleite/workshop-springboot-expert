@@ -19,35 +19,35 @@ public class VendasApplication {
         return args -> {
             System.out.println();
             System.out.println("************SALVANDO CLIENTES************");
-            clientes.salvar(new Cliente("Cleiton"));
-            clientes.salvar(new Cliente("Lany"));
+            clientes.save(new Cliente("Cleiton"));
+            clientes.save(new Cliente("Lany"));
 
-            List<Cliente> todosClientes = clientes.obterTodos();
+            List<Cliente> todosClientes = clientes.findAll();
             todosClientes.forEach(System.out::println);
             System.out.println();
 
             System.out.println("************ATUALIZANDO CLIENTES************");
             todosClientes.forEach(c -> {
                 c.setNome(c.getNome() + " atualizado.");
-                clientes.atualizar(c);
+                clientes.save(c);
             });
 
-            todosClientes = clientes.obterTodos();
+            todosClientes = clientes.findAll();
             todosClientes.forEach(System.out::println);
             System.out.println();
 
             System.out.println("************BUSCANDO CLIENTES************");
-            clientes.buscarPorNome("ny").forEach(System.out::println);
+            clientes.findByNomeLike("ny").forEach(System.out::println);
             System.out.println();
 
             System.out.println("************DELETANDO CLIENTES************");
-            clientes.obterTodos().forEach(c -> {
-                clientes.deletar(c);
+            clientes.findAll().forEach(c -> {
+                clientes.delete(c);
             });
             System.out.println();
 
             System.out.println("************TODOS OS CLIENTES************");
-            todosClientes = clientes.obterTodos();
+            todosClientes = clientes.findAll();
             if(todosClientes.isEmpty()){
                 System.out.println("Nenhum cliente encontrado.");
             }else{
