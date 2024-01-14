@@ -1,4 +1,4 @@
-package io.githob.cleiton.domain.repositorio;
+package io.githob.cleiton.domain.repository;
 
 import io.githob.cleiton.domain.entity.Cliente;
 import org.springframework.data.jpa.repository.JpaRepository;

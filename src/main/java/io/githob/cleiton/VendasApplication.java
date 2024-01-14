@@ -1,7 +1,7 @@
 package io.githob.cleiton;
 
 import io.githob.cleiton.domain.entity.Cliente;
-import io.githob.cleiton.domain.repositorio.Clientes;
+import io.githob.cleiton.domain.repository.Clientes;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
