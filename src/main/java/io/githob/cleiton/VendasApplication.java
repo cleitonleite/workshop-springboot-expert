@@ -1,58 +1,40 @@
 package io.githob.cleiton;
 
 import io.githob.cleiton.domain.entity.Cliente;
+import io.githob.cleiton.domain.entity.Pedido;
 import io.githob.cleiton.domain.repository.Clientes;
+import io.githob.cleiton.domain.repository.Pedidos;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import java.util.List;
-
+import java.math.BigDecimal;
+import java.time.LocalDate;
 
 @SpringBootApplication
 public class VendasApplication {
 
     @Bean
-    public CommandLineRunner init(@Autowired Clientes clientes){
+    public CommandLineRunner init(
+            @Autowired Clientes clientes,
+            @Autowired Pedidos pedidos
+    ){
         return args -> {
             System.out.println();
             System.out.println("************SALVANDO CLIENTES************");
-            clientes.save(new Cliente("Cleiton"));
-            clientes.save(new Cliente("Lany"));
+            Cliente fulano = new Cliente("Fulano");
+            clientes.save(fulano);
 
-            List<Cliente> todosClientes = clientes.findAll();
-            todosClientes.forEach(System.out::println);
-            System.out.println();
+            Pedido p = new Pedido();
+            p.setCliente(fulano);
+            p.setDataPedido(LocalDate.now());
+            p.setTotal(BigDecimal.valueOf(100));
 
-            System.out.println("************ATUALIZANDO CLIENTES************");
-            todosClientes.forEach(c -> {
-                c.setNome(c.getNome() + " atualizado.");
-                clientes.save(c);
-            });
+            pedidos.save(p);
 
-            todosClientes = clientes.findAll();
-            todosClientes.forEach(System.out::println);
-            System.out.println();
-
-            System.out.println("************BUSCANDO CLIENTES************");
-            clientes.findByNomeLike("ny").forEach(System.out::println);
-            System.out.println();
-
-            System.out.println("************DELETANDO CLIENTES************");
-            clientes.findAll().forEach(c -> {
-                clientes.delete(c);
-            });
-            System.out.println();
-
-            System.out.println("************TODOS OS CLIENTES************");
-            todosClientes = clientes.findAll();
-            if(todosClientes.isEmpty()){
-                System.out.println("Nenhum cliente encontrado.");
-            }else{
-                todosClientes.forEach(System.out::println);
-            }
+            pedidos.findByCliente(fulano).forEach(System.out::println);
         };
     }
 

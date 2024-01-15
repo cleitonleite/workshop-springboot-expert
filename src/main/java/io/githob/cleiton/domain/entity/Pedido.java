@@ -4,7 +4,6 @@ import javax.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.List;
-import java.util.Set;
 
 @Entity
 @Table(name = "pedido")
@@ -22,11 +21,11 @@ public class Pedido {
     @Column(name = "data_pedido")
     private LocalDate dataPedido;
 
-    @Column(name = "total", length = 20, precision = 2)
+    @Column(name = "total", precision = 20, scale = 2)
     private BigDecimal total;
 
     @OneToMany(mappedBy = "pedido")
-    private Set<ItemPedido> itens;
+    private List<ItemPedido> itens;
 
     public Integer getId() {
         return id;
@@ -60,11 +59,20 @@ public class Pedido {
         this.total = total;
     }
 
-    public Set<ItemPedido> getItens() {
+    public List<ItemPedido> getItens() {
         return itens;
     }
 
-    public void setItens(Set<ItemPedido> itens) {
+    public void setItens(List<ItemPedido> itens) {
         this.itens = itens;
+    }
+
+    @Override
+    public String toString() {
+        return "Pedido{" +
+                "id=" + id +
+                ", dataPedido=" + dataPedido +
+                ", total=" + total +
+                '}';
     }
 }

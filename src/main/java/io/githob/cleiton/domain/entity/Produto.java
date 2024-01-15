@@ -2,7 +2,6 @@ package io.githob.cleiton.domain.entity;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
-import java.util.Set;
 
 @Entity
 @Table(name = "produto")
@@ -18,9 +17,6 @@ public class Produto {
 
     @Column(name = "preco_unitario")
     private BigDecimal preco;
-
-    @OneToMany(mappedBy = "produto")
-    private Set<ItemPedido> produtos;
 
     public Integer getId() {
         return id;
@@ -44,13 +40,5 @@ public class Produto {
 
     public void setPreco(BigDecimal preco) {
         this.preco = preco;
-    }
-
-    public Set<ItemPedido> getProdutos() {
-        return produtos;
-    }
-
-    public void setProdutos(Set<ItemPedido> produtos) {
-        this.produtos = produtos;
     }
 }
