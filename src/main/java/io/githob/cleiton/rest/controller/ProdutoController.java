@@ -1,7 +1,6 @@
 package io.githob.cleiton.rest.controller;
 
 
-import io.githob.cleiton.domain.entity.Cliente;
 import io.githob.cleiton.domain.entity.Produto;
 import io.githob.cleiton.domain.repository.Produtos;
 import org.springframework.data.domain.Example;
