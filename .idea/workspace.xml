@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a214073-5a0c-47a7-9c4a-d471ecece0e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/rest/dto/ItemPedidoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/rest/dto/PedidoDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/rest/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/rest/controller/ClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/rest/controller/ProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/rest/controller/ProdutoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/controller/ClienteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/controller/ClienteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/controller/ProdutoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/controller/ProdutoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/domain/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/domain/entity/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/domain/entity/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/domain/entity/ItemPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/domain/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/domain/entity/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/domain/entity/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/domain/entity/Produto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -101,6 +100,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="552" y="174" key="#Project_Structure/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705088090356" />
+    <state x="436" y="-809" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1706066861300">
+      <screen x="-254" y="-1080" width="1920" height="1032" />
+    </state>
+    <state x="436" y="-809" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706066861300" />
     <state x="511" y="-954" key="#com.intellij.ide.util.MemberChooser" timestamp="1706062221222">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
@@ -155,10 +158,11 @@
     <state width="1877" height="181" key="GridCell.Tab.0.right/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706065481515" />
     <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1366.720/-254.-1080.1920.1080@-254.-1080.1920.1080" timestamp="1705602068422" />
     <state width="1323" height="86" key="GridCell.Tab.0.right/0.0.1366.720/-254.-1080.1920.1080@0.0.1366.720" timestamp="1705432318989" />
-    <state x="176" y="-835" key="SettingsEditor" timestamp="1705421143534">
-      <screen x="-254" y="-1080" width="1920" height="1080" />
+    <state x="176" y="-846" key="SettingsEditor" timestamp="1706066462046">
+      <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state x="821" y="54" key="SettingsEditor/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705004956666" />
+    <state x="176" y="-846" key="SettingsEditor/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706066462046" />
     <state x="176" y="-835" key="SettingsEditor/0.0.1366.720/-254.-1080.1920.1080@0.0.1366.720" timestamp="1705421143534" />
     <state x="522" y="-786" key="chooseDestDirectoryDialog" timestamp="1706065276035">
       <screen x="-254" y="-1080" width="1920" height="1032" />
@@ -172,10 +176,11 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="690" y="271" key="extract.method.dialog/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705101510674" />
-    <state x="629" y="114" width="661" height="804" key="find.popup" timestamp="1705008998981">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state x="375" y="-966" width="661" height="804" key="find.popup" timestamp="1706066956900">
+      <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state x="629" y="114" width="661" height="804" key="find.popup/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705008998981" />
+    <state x="375" y="-966" width="661" height="804" key="find.popup/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706066956900" />
     <state x="616" y="238" key="run.anything.popup" timestamp="1705013027163">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
