@@ -3,6 +3,8 @@ package io.githob.cleiton.rest.controller;
 import io.githob.cleiton.Service.PedidoService;
 import io.githob.cleiton.domain.entity.ItemPedido;
 import io.githob.cleiton.domain.entity.Pedido;
+import io.githob.cleiton.domain.enums.StatusPedido;
+import io.githob.cleiton.rest.dto.AtualizacaoStatusPedidoDTO;
 import io.githob.cleiton.rest.dto.InformacaoItemPeidoDTO;
 import io.githob.cleiton.rest.dto.InformacoesPedidoDTO;
 import io.githob.cleiton.rest.dto.PedidoDTO;
@@ -40,6 +42,14 @@ public class PedidoController {
                 .obterPedidoCompleto(id)
                 .map(p -> converter(p))
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Pedido não encontrado."));
+    }
+
+    @PatchMapping("{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void updateStatus(@PathVariable Integer id,
+                             @RequestBody AtualizacaoStatusPedidoDTO dto) {
+        String novoStatus = dto.getNovoStatus();
+        service.atualizaStatus(id, StatusPedido.valueOf(novoStatus));
     }
 
     private InformacoesPedidoDTO converter (Pedido pedido) {

@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a214073-5a0c-47a7-9c4a-d471ecece0e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/domain/enums/StatusPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/exception/PedidoNaoEncontradoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/rest/dto/AtualizacaoStatusPedidoDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/Service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/Service/PedidoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/Service/impl/PedidoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/Service/impl/PedidoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/domain/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/domain/entity/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/rest/controller/ApplicationControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/rest/controller/ApplicationControllerAdvice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/rest/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/rest/controller/PedidoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/rest/dto/InformacoesPedidoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/rest/dto/InformacoesPedidoDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/meu_schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/meu_schema.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +20,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,6 +56,7 @@
       <recent name="io.githob.cleiton" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="io.githob.cleiton.exception" />
       <recent name="io.githob.cleiton.domain.enums" />
       <recent name="io.githob.cleiton.rest.dto" />
     </key>
@@ -110,11 +111,11 @@
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state x="436" y="-809" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706066861300" />
-    <state x="511" y="-954" key="#com.intellij.ide.util.MemberChooser" timestamp="1706321749306">
+    <state x="511" y="-954" key="#com.intellij.ide.util.MemberChooser" timestamp="1706326367161">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state x="765" y="200" key="#com.intellij.ide.util.MemberChooser/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705254261611" />
-    <state x="511" y="-954" key="#com.intellij.ide.util.MemberChooser/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706321749306" />
+    <state x="511" y="-954" key="#com.intellij.ide.util.MemberChooser/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706326367161" />
     <state x="544" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.720/-254.-1080.1920.1080@0.0.1366.720" timestamp="1705345170019" />
     <state x="436" y="-788" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1706065247603">
       <screen x="-254" y="-1080" width="1920" height="1032" />
@@ -136,32 +137,32 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="690" y="263" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705011996113" />
-    <state width="1877" height="435" key="GridCell.Tab.0.bottom" timestamp="1706325210805">
+    <state width="1877" height="688" key="GridCell.Tab.0.bottom" timestamp="1706326916618">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state width="1877" height="341" key="GridCell.Tab.0.bottom/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705249146081" />
-    <state width="1877" height="435" key="GridCell.Tab.0.bottom/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706325210805" />
+    <state width="1877" height="688" key="GridCell.Tab.0.bottom/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706326916618" />
     <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1366.720/-254.-1080.1920.1080@-254.-1080.1920.1080" timestamp="1705602068422" />
     <state width="1323" height="86" key="GridCell.Tab.0.bottom/0.0.1366.720/-254.-1080.1920.1080@0.0.1366.720" timestamp="1705432318989" />
-    <state width="1877" height="435" key="GridCell.Tab.0.center" timestamp="1706325210805">
+    <state width="1877" height="688" key="GridCell.Tab.0.center" timestamp="1706326916618">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state width="1877" height="341" key="GridCell.Tab.0.center/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705249146081" />
-    <state width="1877" height="435" key="GridCell.Tab.0.center/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706325210805" />
+    <state width="1877" height="688" key="GridCell.Tab.0.center/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706326916618" />
     <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1366.720/-254.-1080.1920.1080@-254.-1080.1920.1080" timestamp="1705602068422" />
     <state width="1323" height="86" key="GridCell.Tab.0.center/0.0.1366.720/-254.-1080.1920.1080@0.0.1366.720" timestamp="1705432318989" />
-    <state width="1877" height="435" key="GridCell.Tab.0.left" timestamp="1706325210803">
+    <state width="1877" height="688" key="GridCell.Tab.0.left" timestamp="1706326916618">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state width="1877" height="341" key="GridCell.Tab.0.left/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705249146081" />
-    <state width="1877" height="435" key="GridCell.Tab.0.left/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706325210803" />
+    <state width="1877" height="688" key="GridCell.Tab.0.left/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706326916618" />
     <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1366.720/-254.-1080.1920.1080@-254.-1080.1920.1080" timestamp="1705602068422" />
     <state width="1323" height="86" key="GridCell.Tab.0.left/0.0.1366.720/-254.-1080.1920.1080@0.0.1366.720" timestamp="1705432318989" />
-    <state width="1877" height="435" key="GridCell.Tab.0.right" timestamp="1706325210805">
+    <state width="1877" height="688" key="GridCell.Tab.0.right" timestamp="1706326916618">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state width="1877" height="341" key="GridCell.Tab.0.right/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705249146081" />
-    <state width="1877" height="435" key="GridCell.Tab.0.right/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706325210805" />
+    <state width="1877" height="688" key="GridCell.Tab.0.right/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706326916618" />
     <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1366.720/-254.-1080.1920.1080@-254.-1080.1920.1080" timestamp="1705602068422" />
     <state width="1323" height="86" key="GridCell.Tab.0.right/0.0.1366.720/-254.-1080.1920.1080@0.0.1366.720" timestamp="1705432318989" />
     <state x="176" y="-846" key="SettingsEditor" timestamp="1706067569196">

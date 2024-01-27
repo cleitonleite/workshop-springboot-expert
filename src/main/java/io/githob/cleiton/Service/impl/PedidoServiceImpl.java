@@ -10,6 +10,7 @@ import io.githob.cleiton.domain.repository.Clientes;
 import io.githob.cleiton.domain.repository.ItemsPedido;
 import io.githob.cleiton.domain.repository.Pedidos;
 import io.githob.cleiton.domain.repository.Produtos;
+import io.githob.cleiton.exception.PedidoNaoEncontradoException;
 import io.githob.cleiton.exception.RegraNegocioException;
 import io.githob.cleiton.rest.dto.ItemPedidoDTO;
 import io.githob.cleiton.rest.dto.PedidoDTO;
@@ -55,6 +56,17 @@ public class PedidoServiceImpl implements PedidoService {
     @Override
     public Optional<Pedido> obterPedidoCompleto(Integer id) {
         return repository.findByIdaFetchItens(id);
+    }
+
+    @Override
+    @Transactional
+    public void atualizaStatus(Integer id, StatusPedido statusPedido) {
+        repository
+                .findById(id)
+                .map(pedido -> {
+                    pedido.setStatus(statusPedido);
+                    return repository.save(pedido);
+                }).orElseThrow(() -> new PedidoNaoEncontradoException());
     }
 
 

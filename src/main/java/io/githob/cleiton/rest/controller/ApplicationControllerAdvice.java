@@ -1,5 +1,6 @@
 package io.githob.cleiton.rest.controller;
 
+import io.githob.cleiton.exception.PedidoNaoEncontradoException;
 import io.githob.cleiton.exception.RegraNegocioException;
 import io.githob.cleiton.rest.ApiErrors;
 import org.springframework.http.HttpStatus;
@@ -15,5 +16,11 @@ public class ApplicationControllerAdvice {
     public ApiErrors handleRegraNegocioException(RegraNegocioException ex) {
         String mensagemErro = ex.getMessage();
         return new ApiErrors(mensagemErro);
+    }
+
+    @ExceptionHandler(PedidoNaoEncontradoException.class)
+    @ResponseStatus(HttpStatus.NOT_FOUND)
+    public ApiErrors handlePedidoNotFoundException(PedidoNaoEncontradoException ex) {
+        return new ApiErrors(ex.getMessage());
     }
 }
