@@ -5,6 +5,7 @@ import io.githob.cleiton.domain.entity.Cliente;
 import io.githob.cleiton.domain.entity.ItemPedido;
 import io.githob.cleiton.domain.entity.Pedido;
 import io.githob.cleiton.domain.entity.Produto;
+import io.githob.cleiton.domain.enums.StatusPedido;
 import io.githob.cleiton.domain.repository.Clientes;
 import io.githob.cleiton.domain.repository.ItemsPedido;
 import io.githob.cleiton.domain.repository.Pedidos;
@@ -42,6 +43,7 @@ public class PedidoServiceImpl implements PedidoService {
         pedido.setTotal(dto.getTotal());
         pedido.setDataPedido(LocalDate.now());
         pedido.setCliente(cliente);
+        pedido.setStatus(StatusPedido.REALIZADO);
 
         List<ItemPedido> itemsPedido = converterItems(pedido, dto.getItems());
         repository.save(pedido);
