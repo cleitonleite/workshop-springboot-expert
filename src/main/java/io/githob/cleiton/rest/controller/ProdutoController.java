@@ -33,7 +33,7 @@ public class ProdutoController {
     @PutMapping("{id}")
     @ResponseStatus(NO_CONTENT)
     public void update(@PathVariable Integer id,
-                       @RequestBody Produto produto) {
+                       @RequestBody @Valid Produto produto) {
         repository
                 .findById(id)
                 .map(p -> {
