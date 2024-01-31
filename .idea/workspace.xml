@@ -3,14 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9a214073-5a0c-47a7-9c4a-d471ecece0e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/rest/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/rest/controller/ClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/rest/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/rest/controller/PedidoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/rest/controller/ProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/rest/controller/ProdutoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/rest/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/rest/controller/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/controller/ClienteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/controller/ClienteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/controller/PedidoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/controller/PedidoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/controller/ProdutoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/controller/ProdutoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/controller/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/controller/UsuarioController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/VendasApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/vendas.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/VendasApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/githob/cleiton/VendasApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
