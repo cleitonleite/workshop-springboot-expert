@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a214073-5a0c-47a7-9c4a-d471ecece0e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/security/jwt/JwtAuthFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/security/jwt/JwtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/JwtService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/config/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
