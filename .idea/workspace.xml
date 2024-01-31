@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a214073-5a0c-47a7-9c4a-d471ecece0e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Cleiton_Leite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/domain/entity/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/domain/repository/UsuarioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/rest/controller/UsuarioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/JwtService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/Service/impl/UsuarioServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/Service/impl/UsuarioServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/Service/impl/UsuarioServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/githob/cleiton/Service/impl/UsuarioServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +48,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -65,7 +60,20 @@
       <recent name="io.githob.cleiton.rest.dto" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.JwtService">
+    <configuration name="JwtService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.githob.cleiton.JwtService" />
+      <module name="vendas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.githob.cleiton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VendasApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.githob.cleiton.VendasApplication" />
       <module name="vendas" />
@@ -81,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JwtService" />
         <item itemvalue="Application.VendasApplication" />
       </list>
     </recent_temporary>
@@ -99,10 +108,11 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="174" width="816" height="729" key="#Intentions" timestamp="1705109572618">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state x="298" y="-906" width="816" height="774" key="#Intentions" timestamp="1706663107165">
+      <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state x="552" y="174" width="816" height="729" key="#Intentions/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705109572618" />
+    <state x="298" y="-906" width="816" height="774" key="#Intentions/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706663107165" />
     <state x="552" y="174" key="#Notifications" timestamp="1705088178372">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -115,11 +125,11 @@
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state x="436" y="-809" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706066861300" />
-    <state x="511" y="-954" key="#com.intellij.ide.util.MemberChooser" timestamp="1706585008187">
+    <state x="511" y="-954" key="#com.intellij.ide.util.MemberChooser" timestamp="1706659396449">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state x="765" y="200" key="#com.intellij.ide.util.MemberChooser/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705254261611" />
-    <state x="511" y="-954" key="#com.intellij.ide.util.MemberChooser/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706585008187" />
+    <state x="511" y="-954" key="#com.intellij.ide.util.MemberChooser/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706659396449" />
     <state x="544" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.720/-254.-1080.1920.1080@0.0.1366.720" timestamp="1705345170019" />
     <state x="436" y="-788" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1706065247603">
       <screen x="-254" y="-1080" width="1920" height="1032" />
@@ -141,39 +151,39 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="690" y="263" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705011996113" />
-    <state width="1877" height="307" key="GridCell.Tab.0.bottom" timestamp="1706586228360">
+    <state width="1877" height="474" key="GridCell.Tab.0.bottom" timestamp="1706663298039">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state width="1877" height="341" key="GridCell.Tab.0.bottom/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705249146081" />
-    <state width="1877" height="307" key="GridCell.Tab.0.bottom/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706586228360" />
+    <state width="1877" height="474" key="GridCell.Tab.0.bottom/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706663298039" />
     <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1366.720/-254.-1080.1920.1080@-254.-1080.1920.1080" timestamp="1705602068422" />
     <state width="1323" height="86" key="GridCell.Tab.0.bottom/0.0.1366.720/-254.-1080.1920.1080@0.0.1366.720" timestamp="1705432318989" />
-    <state width="1877" height="307" key="GridCell.Tab.0.center" timestamp="1706586228359">
+    <state width="1877" height="474" key="GridCell.Tab.0.center" timestamp="1706663298038">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state width="1877" height="341" key="GridCell.Tab.0.center/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705249146081" />
-    <state width="1877" height="307" key="GridCell.Tab.0.center/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706586228359" />
+    <state width="1877" height="474" key="GridCell.Tab.0.center/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706663298038" />
     <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1366.720/-254.-1080.1920.1080@-254.-1080.1920.1080" timestamp="1705602068422" />
     <state width="1323" height="86" key="GridCell.Tab.0.center/0.0.1366.720/-254.-1080.1920.1080@0.0.1366.720" timestamp="1705432318989" />
-    <state width="1877" height="307" key="GridCell.Tab.0.left" timestamp="1706586228359">
+    <state width="1877" height="474" key="GridCell.Tab.0.left" timestamp="1706663298038">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state width="1877" height="341" key="GridCell.Tab.0.left/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705249146081" />
-    <state width="1877" height="307" key="GridCell.Tab.0.left/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706586228359" />
+    <state width="1877" height="474" key="GridCell.Tab.0.left/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706663298038" />
     <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1366.720/-254.-1080.1920.1080@-254.-1080.1920.1080" timestamp="1705602068422" />
     <state width="1323" height="86" key="GridCell.Tab.0.left/0.0.1366.720/-254.-1080.1920.1080@0.0.1366.720" timestamp="1705432318989" />
-    <state width="1877" height="307" key="GridCell.Tab.0.right" timestamp="1706586228360">
+    <state width="1877" height="474" key="GridCell.Tab.0.right" timestamp="1706663298039">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state width="1877" height="341" key="GridCell.Tab.0.right/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705249146081" />
-    <state width="1877" height="307" key="GridCell.Tab.0.right/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706586228360" />
+    <state width="1877" height="474" key="GridCell.Tab.0.right/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706663298039" />
     <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1366.720/-254.-1080.1920.1080@-254.-1080.1920.1080" timestamp="1705602068422" />
     <state width="1323" height="86" key="GridCell.Tab.0.right/0.0.1366.720/-254.-1080.1920.1080@0.0.1366.720" timestamp="1705432318989" />
-    <state x="146" y="-942" width="998" height="708" key="SettingsEditor" timestamp="1706327870701">
+    <state x="146" y="-942" width="998" height="708" key="SettingsEditor" timestamp="1706647564534">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state x="821" y="54" key="SettingsEditor/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705004956666" />
-    <state x="146" y="-942" width="998" height="708" key="SettingsEditor/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706327870701" />
+    <state x="146" y="-942" width="998" height="708" key="SettingsEditor/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706647564534" />
     <state x="176" y="-835" key="SettingsEditor/0.0.1366.720/-254.-1080.1920.1080@0.0.1366.720" timestamp="1705421143534" />
     <state x="522" y="-786" key="chooseDestDirectoryDialog" timestamp="1706065276035">
       <screen x="-254" y="-1080" width="1920" height="1032" />
@@ -187,10 +197,11 @@
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state x="470" y="-861" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706584988174" />
-    <state x="690" y="271" key="extract.method.dialog" timestamp="1705101510674">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state x="436" y="-809" key="extract.method.dialog" timestamp="1706663072144">
+      <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state x="690" y="271" key="extract.method.dialog/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705101510674" />
+    <state x="436" y="-809" key="extract.method.dialog/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706663072144" />
     <state x="375" y="-966" width="661" height="804" key="find.popup" timestamp="1706066956900">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
@@ -200,9 +211,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="616" y="238" key="run.anything.popup/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705013027163" />
-    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1704896942286">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state x="369" y="-857" width="672" height="678" key="search.everywhere.popup" timestamp="1706646575009">
+      <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1704896942286" />
+    <state x="369" y="-857" width="672" height="678" key="search.everywhere.popup/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706646575009" />
   </component>
 </project>
