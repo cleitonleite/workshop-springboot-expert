@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a214073-5a0c-47a7-9c4a-d471ecece0e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/security/jwt/JwtAuthFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/security/jwt/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/JwtService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/io/githob/cleiton" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -57,7 +60,20 @@
       <recent name="io.githob.cleiton.rest.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JwtService">
+  <component name="RunManager" selected="Application.JwtService (1)">
+    <configuration name="JwtService (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.githob.cleiton.security.jwt.JwtService" />
+      <module name="vendas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.githob.cleiton.security.jwt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JwtService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.githob.cleiton.JwtService" />
       <module name="vendas" />
@@ -86,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JwtService (1)" />
         <item itemvalue="Application.JwtService" />
         <item itemvalue="Application.VendasApplication" />
       </list>
@@ -122,11 +139,11 @@
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state x="436" y="-809" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706066861300" />
-    <state x="511" y="-954" key="#com.intellij.ide.util.MemberChooser" timestamp="1706659396449">
+    <state x="511" y="-954" key="#com.intellij.ide.util.MemberChooser" timestamp="1706666251927">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state x="765" y="200" key="#com.intellij.ide.util.MemberChooser/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705254261611" />
-    <state x="511" y="-954" key="#com.intellij.ide.util.MemberChooser/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706659396449" />
+    <state x="511" y="-954" key="#com.intellij.ide.util.MemberChooser/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706666251927" />
     <state x="544" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.720/-254.-1080.1920.1080@0.0.1366.720" timestamp="1705345170019" />
     <state x="436" y="-788" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1706065247603">
       <screen x="-254" y="-1080" width="1920" height="1032" />
@@ -148,32 +165,32 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="690" y="263" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705011996113" />
-    <state width="1877" height="520" key="GridCell.Tab.0.bottom" timestamp="1706665569942">
+    <state width="1877" height="232" key="GridCell.Tab.0.bottom" timestamp="1706665988424">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state width="1877" height="341" key="GridCell.Tab.0.bottom/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705249146081" />
-    <state width="1877" height="520" key="GridCell.Tab.0.bottom/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706665569942" />
+    <state width="1877" height="232" key="GridCell.Tab.0.bottom/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706665988424" />
     <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1366.720/-254.-1080.1920.1080@-254.-1080.1920.1080" timestamp="1705602068422" />
     <state width="1323" height="86" key="GridCell.Tab.0.bottom/0.0.1366.720/-254.-1080.1920.1080@0.0.1366.720" timestamp="1705432318989" />
-    <state width="1877" height="520" key="GridCell.Tab.0.center" timestamp="1706665569942">
+    <state width="1877" height="232" key="GridCell.Tab.0.center" timestamp="1706665988424">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state width="1877" height="341" key="GridCell.Tab.0.center/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705249146081" />
-    <state width="1877" height="520" key="GridCell.Tab.0.center/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706665569942" />
+    <state width="1877" height="232" key="GridCell.Tab.0.center/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706665988424" />
     <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1366.720/-254.-1080.1920.1080@-254.-1080.1920.1080" timestamp="1705602068422" />
     <state width="1323" height="86" key="GridCell.Tab.0.center/0.0.1366.720/-254.-1080.1920.1080@0.0.1366.720" timestamp="1705432318989" />
-    <state width="1877" height="520" key="GridCell.Tab.0.left" timestamp="1706665569942">
+    <state width="1877" height="232" key="GridCell.Tab.0.left" timestamp="1706665988424">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state width="1877" height="341" key="GridCell.Tab.0.left/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705249146081" />
-    <state width="1877" height="520" key="GridCell.Tab.0.left/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706665569942" />
+    <state width="1877" height="232" key="GridCell.Tab.0.left/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706665988424" />
     <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1366.720/-254.-1080.1920.1080@-254.-1080.1920.1080" timestamp="1705602068422" />
     <state width="1323" height="86" key="GridCell.Tab.0.left/0.0.1366.720/-254.-1080.1920.1080@0.0.1366.720" timestamp="1705432318989" />
-    <state width="1877" height="520" key="GridCell.Tab.0.right" timestamp="1706665569942">
+    <state width="1877" height="232" key="GridCell.Tab.0.right" timestamp="1706665988424">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state width="1877" height="341" key="GridCell.Tab.0.right/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705249146081" />
-    <state width="1877" height="520" key="GridCell.Tab.0.right/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706665569942" />
+    <state width="1877" height="232" key="GridCell.Tab.0.right/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706665988424" />
     <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1366.720/-254.-1080.1920.1080@-254.-1080.1920.1080" timestamp="1705602068422" />
     <state width="1323" height="86" key="GridCell.Tab.0.right/0.0.1366.720/-254.-1080.1920.1080@0.0.1366.720" timestamp="1705432318989" />
     <state x="146" y="-942" width="998" height="708" key="SettingsEditor" timestamp="1706647564534">
@@ -182,10 +199,10 @@
     <state x="821" y="54" key="SettingsEditor/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705004956666" />
     <state x="146" y="-942" width="998" height="708" key="SettingsEditor/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706647564534" />
     <state x="176" y="-835" key="SettingsEditor/0.0.1366.720/-254.-1080.1920.1080@0.0.1366.720" timestamp="1705421143534" />
-    <state x="522" y="-786" key="chooseDestDirectoryDialog" timestamp="1706065276035">
+    <state x="522" y="-786" key="chooseDestDirectoryDialog" timestamp="1706665824699">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
-    <state x="522" y="-786" key="chooseDestDirectoryDialog/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706065276035" />
+    <state x="522" y="-786" key="chooseDestDirectoryDialog/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706665824699" />
     <state x="656" y="340" key="com.intellij.ide.util.TipDialog" timestamp="1704996233200">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
