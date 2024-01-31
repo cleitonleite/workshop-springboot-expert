@@ -2,17 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a214073-5a0c-47a7-9c4a-d471ecece0e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/config/SwaggerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/domain/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/domain/entity/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/domain/entity/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/domain/entity/ItemPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/domain/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/domain/entity/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/domain/entity/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/domain/entity/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/domain/entity/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/domain/entity/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/meu_schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/meu_schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/githob/cleiton/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/Service/PedidoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/Service/impl/PedidoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/Service/impl/UsuarioServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/VendasApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/config/InternacionalizacaoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/domain/entity/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/domain/entity/ItemPedido.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/domain/entity/Pedido.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/domain/entity/Produto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/domain/entity/Usuario$UsuarioBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/domain/entity/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/domain/enums/StatusPedido.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/domain/repository/Clientes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/domain/repository/ItemsPedido.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/domain/repository/Pedidos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/domain/repository/Produtos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/domain/repository/UsuarioRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/exception/PedidoNaoEncontradoException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/exception/RegraNegocioException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/exception/SenhaInvalidaException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/ApiErrors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/controller/ApplicationControllerAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/controller/ClienteController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/controller/PedidoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/controller/ProdutoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/controller/UsuarioController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/dto/AtualizacaoStatusPedidoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/dto/CredenciaisDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/dto/InformacaoItemPeidoDTO$InformacaoItemPeidoDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/dto/InformacaoItemPeidoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/dto/InformacoesPedidoDTO$InformacoesPedidoDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/dto/InformacoesPedidoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/dto/ItemPedidoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/dto/PedidoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/rest/dto/TokenDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/security/jwt/JwtAuthFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/security/jwt/JwtService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/validation/NotEmptyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/githob/cleiton/validation/constraintvalidation/NotEmptyListValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/meu_schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/meu_schema.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,11 +184,11 @@
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state x="436" y="-809" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706066861300" />
-    <state x="511" y="-954" key="#com.intellij.ide.util.MemberChooser" timestamp="1706669077878">
+    <state x="511" y="-954" key="#com.intellij.ide.util.MemberChooser" timestamp="1706706958060">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state x="765" y="200" key="#com.intellij.ide.util.MemberChooser/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705254261611" />
-    <state x="511" y="-954" key="#com.intellij.ide.util.MemberChooser/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706669077878" />
+    <state x="511" y="-954" key="#com.intellij.ide.util.MemberChooser/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706706958060" />
     <state x="544" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.720/-254.-1080.1920.1080@0.0.1366.720" timestamp="1705345170019" />
     <state x="436" y="-788" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1706065247603">
       <screen x="-254" y="-1080" width="1920" height="1032" />
@@ -176,50 +210,50 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="690" y="263" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705011996113" />
-    <state width="1877" height="109" key="GridCell.Tab.0.bottom" timestamp="1706672277368">
+    <state width="1877" height="371" key="GridCell.Tab.0.bottom" timestamp="1706672976834">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state width="1877" height="341" key="GridCell.Tab.0.bottom/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705249146081" />
-    <state width="1877" height="109" key="GridCell.Tab.0.bottom/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706672277368" />
+    <state width="1877" height="371" key="GridCell.Tab.0.bottom/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706672976834" />
     <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1366.720/-254.-1080.1920.1080@-254.-1080.1920.1080" timestamp="1705602068422" />
     <state width="1323" height="86" key="GridCell.Tab.0.bottom/0.0.1366.720/-254.-1080.1920.1080@0.0.1366.720" timestamp="1705432318989" />
-    <state width="1877" height="109" key="GridCell.Tab.0.center" timestamp="1706672277368">
+    <state width="1877" height="371" key="GridCell.Tab.0.center" timestamp="1706672976834">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state width="1877" height="341" key="GridCell.Tab.0.center/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705249146081" />
-    <state width="1877" height="109" key="GridCell.Tab.0.center/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706672277368" />
+    <state width="1877" height="371" key="GridCell.Tab.0.center/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706672976834" />
     <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1366.720/-254.-1080.1920.1080@-254.-1080.1920.1080" timestamp="1705602068422" />
     <state width="1323" height="86" key="GridCell.Tab.0.center/0.0.1366.720/-254.-1080.1920.1080@0.0.1366.720" timestamp="1705432318989" />
-    <state width="1877" height="109" key="GridCell.Tab.0.left" timestamp="1706672277368">
+    <state width="1877" height="371" key="GridCell.Tab.0.left" timestamp="1706672976834">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state width="1877" height="341" key="GridCell.Tab.0.left/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705249146081" />
-    <state width="1877" height="109" key="GridCell.Tab.0.left/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706672277368" />
+    <state width="1877" height="371" key="GridCell.Tab.0.left/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706672976834" />
     <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1366.720/-254.-1080.1920.1080@-254.-1080.1920.1080" timestamp="1705602068422" />
     <state width="1323" height="86" key="GridCell.Tab.0.left/0.0.1366.720/-254.-1080.1920.1080@0.0.1366.720" timestamp="1705432318989" />
-    <state width="1877" height="109" key="GridCell.Tab.0.right" timestamp="1706672277368">
+    <state width="1877" height="371" key="GridCell.Tab.0.right" timestamp="1706672976834">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
     <state width="1877" height="341" key="GridCell.Tab.0.right/-1366.58.1366.720/0.0.1920.1032@0.0.1920.1032" timestamp="1705249146081" />
-    <state width="1877" height="109" key="GridCell.Tab.0.right/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706672277368" />
+    <state width="1877" height="371" key="GridCell.Tab.0.right/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706672976834" />
     <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1366.720/-254.-1080.1920.1080@-254.-1080.1920.1080" timestamp="1705602068422" />
     <state width="1323" height="86" key="GridCell.Tab.0.right/0.0.1366.720/-254.-1080.1920.1080@0.0.1366.720" timestamp="1705432318989" />
-    <state width="1877" height="371" key="GridCell.Tab.1.bottom" timestamp="1706671665409">
+    <state width="1877" height="371" key="GridCell.Tab.1.bottom" timestamp="1706672976834">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
-    <state width="1877" height="371" key="GridCell.Tab.1.bottom/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706671665409" />
-    <state width="1877" height="371" key="GridCell.Tab.1.center" timestamp="1706671665409">
+    <state width="1877" height="371" key="GridCell.Tab.1.bottom/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706672976834" />
+    <state width="1877" height="371" key="GridCell.Tab.1.center" timestamp="1706672976834">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
-    <state width="1877" height="371" key="GridCell.Tab.1.center/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706671665409" />
-    <state width="1877" height="371" key="GridCell.Tab.1.left" timestamp="1706671665408">
+    <state width="1877" height="371" key="GridCell.Tab.1.center/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706672976834" />
+    <state width="1877" height="371" key="GridCell.Tab.1.left" timestamp="1706672976834">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
-    <state width="1877" height="371" key="GridCell.Tab.1.left/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706671665408" />
-    <state width="1877" height="371" key="GridCell.Tab.1.right" timestamp="1706671665409">
+    <state width="1877" height="371" key="GridCell.Tab.1.left/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706672976834" />
+    <state width="1877" height="371" key="GridCell.Tab.1.right" timestamp="1706672976834">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
-    <state width="1877" height="371" key="GridCell.Tab.1.right/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706671665409" />
+    <state width="1877" height="371" key="GridCell.Tab.1.right/0.0.1366.720/-254.-1080.1920.1032@-254.-1080.1920.1032" timestamp="1706672976834" />
     <state x="146" y="-942" width="998" height="708" key="SettingsEditor" timestamp="1706647564534">
       <screen x="-254" y="-1080" width="1920" height="1032" />
     </state>
