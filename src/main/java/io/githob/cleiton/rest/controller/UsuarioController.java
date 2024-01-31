@@ -6,6 +6,9 @@ import io.githob.cleiton.exception.SenhaInvalidaException;
 import io.githob.cleiton.rest.dto.CredenciaisDTO;
 import io.githob.cleiton.rest.dto.TokenDTO;
 import io.githob.cleiton.security.jwt.JwtService;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiResponse;
+import io.swagger.annotations.ApiResponses;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -27,6 +30,10 @@ public class UsuarioController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
+    @ApiOperation("Criar um novo usuário")
+    @ApiResponses({
+            @ApiResponse(code = 201, message = "Usuário criado com sucesso")
+    })
     public Usuario salvar(@RequestBody @Valid Usuario usuario) {
         String senhaCriptografada = passwordEncoder.encode(usuario.getSenha());
         usuario.setSenha(senhaCriptografada);
@@ -34,6 +41,10 @@ public class UsuarioController {
     }
 
     @PostMapping("/auth")
+    @ApiOperation("Autemticar um usuário")
+    @ApiResponses({
+            @ApiResponse(code = 200, message = "Usuário autenticado com sucesso")
+    })
     public TokenDTO autenticar (@RequestBody CredenciaisDTO credenciais) {
         try{
             Usuario usuario = Usuario.builder()
