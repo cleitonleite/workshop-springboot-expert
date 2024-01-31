@@ -1,6 +1,8 @@
 package io.githob.cleiton;
 
 import io.githob.cleiton.domain.entity.Usuario;
+import io.jsonwebtoken.Claims;
+import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import org.springframework.beans.factory.annotation.Value;
@@ -12,6 +14,7 @@ import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.Date;
+import java.util.HashMap;
 
 @Service
 public class JwtService {
@@ -34,7 +37,29 @@ public class JwtService {
                 .setExpiration(data)
                 .signWith(SignatureAlgorithm.HS512, chaveAssinatura)
                 .compact();
+    }
 
+    private Claims obterClaims (String token) throws ExpiredJwtException {
+        return Jwts
+                .parser()
+                .setSigningKey(chaveAssinatura)
+                .parseClaimsJws(token)
+                .getBody();
+    }
+
+    public boolean tokenValido (String token) {
+        try{
+            Claims claims = obterClaims(token);
+            Date dataExpiracao = claims.getExpiration();
+            LocalDateTime data = dataExpiracao.toInstant().atZone(ZoneId.systemDefault()).toLocalDateTime();
+            return !LocalDateTime.now().isAfter(data);
+        }catch (Exception e) {
+            return false;
+        }
+    }
+
+    public String obterLoginUsuario(String token) throws ExpiredJwtException {
+        return (String) obterClaims(token).getSubject();
     }
 
     public static void main(String[] args) {
@@ -43,5 +68,10 @@ public class JwtService {
         Usuario usuario = Usuario.builder().login("fulano").build();
         String token = service.gerarToken(usuario);
         System.out.println(token);
+
+        boolean isTokenValido = service.tokenValido(token);
+        System.out.println("O token está válido? " + isTokenValido);
+
+        System.out.println(service.obterLoginUsuario(token));
     }
 }
